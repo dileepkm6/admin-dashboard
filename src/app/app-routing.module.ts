@@ -5,10 +5,10 @@ import { IconsComponent } from './components/icons/icons.component';
 import { NotificationsComponent } from './components/notifications/notifications.component';
 import { TablesComponent } from './components/tables/tables.component';
 import { TypographyComponent } from './components/typography/typography.component';
-import { UserComponent } from './components/user/user.component';
 import { GroupsComponent } from './components/groups/groups.component';
 import { AdministrationComponent } from './components/administration/administration.component';
 import { RoomsComponent } from './components/rooms/rooms.component';
+import { CompanyownerComponent } from './components/companyowner/companyowner.component';
 
 const routes: Routes = [
   {
@@ -30,7 +30,7 @@ const routes: Routes = [
     path: 'typography',component:TypographyComponent
   },
   {
-    path: 'user',component:UserComponent
+    path: 'company',component:CompanyownerComponent
   },
   {
     path: 'groups',component:GroupsComponent

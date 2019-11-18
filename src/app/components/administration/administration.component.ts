@@ -11,5 +11,9 @@ export class AdministrationComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  addDepartment(a)
+  {
+    console.log(a.value)
+    window.alert("department added successfully");
+  }
 }

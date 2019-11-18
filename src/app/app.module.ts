@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { NotificationsComponent } from './components/notifications/notifications.component';
-import { UserComponent } from './components/user/user.component';
 import { TablesComponent } from './components/tables/tables.component';
 import { IconsComponent } from './components/icons/icons.component';
 import { TypographyComponent } from './components/typography/typography.component';
@@ -16,20 +15,21 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { GroupsComponent } from './components/groups/groups.component';
 import { AdministrationComponent } from './components/administration/administration.component';
 import { RoomsComponent } from  './components/rooms/rooms.component';
+import { CompanyownerComponent } from './components/companyowner/companyowner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     NotificationsComponent,
-    UserComponent,
     TablesComponent,
     IconsComponent,
     TypographyComponent,
     FooterComponent,
     GroupsComponent,
     AdministrationComponent,
-    RoomsComponent
+    RoomsComponent,
+    CompanyownerComponent
   ],
   imports: [
     BrowserModule,
