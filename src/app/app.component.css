@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    #sidebarr {
+        margin-left: -250px;
+        transform: rotateY(90deg);
+    }
+    #sidebarr.active {
+        margin-left: 0;
+        transform: none;
+    }
+}
