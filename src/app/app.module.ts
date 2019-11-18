@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { NotificationsComponent } from './components/notifications/notifications.component';
-import { TablesComponent } from './components/tables/tables.component';
 import { IconsComponent } from './components/icons/icons.component';
 import { TypographyComponent } from './components/typography/typography.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -22,7 +21,6 @@ import { CompanyownerComponent } from './components/companyowner/companyowner.co
     AppComponent,
     NavComponent,
     NotificationsComponent,
-    TablesComponent,
     IconsComponent,
     TypographyComponent,
     FooterComponent,

@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import {Routes,RouterModule} from '@angular/router';
 import { IconsComponent } from './components/icons/icons.component';
 import { NotificationsComponent } from './components/notifications/notifications.component';
-import { TablesComponent } from './components/tables/tables.component';
 import { TypographyComponent } from './components/typography/typography.component';
 import { GroupsComponent } from './components/groups/groups.component';
 import { AdministrationComponent } from './components/administration/administration.component';
@@ -22,9 +21,6 @@ const routes: Routes = [
   },
   {
     path: 'notification',component:NotificationsComponent
-  },
-  {
-    path: 'tables',component:TablesComponent
   },
   {
     path: 'typography',component:TypographyComponent
